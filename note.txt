@@ -1,0 +1,35 @@
+Sections in this file
+
+1. header
+2. banner
+3. features
+4. courses
+5. testimonial
+6. footer top
+7. footer
+
+font-family
+    rubik 700 -> logo
+    poppins 400, 500, 700 
+    roboto 400
+
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
+
+color
+    green #21B573
+    navy blue #413960
+    orange #FD511A
+    dark navy blue #282531
+    black #000
+    white #fff
+
+common
+    button, features, courses, course header and testimoneal header
+
+
+screen check
+    spacing
+    padding
+    font size
