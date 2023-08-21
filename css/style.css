@@ -62,3 +62,44 @@ header {
 }
 
 /* header end */
+/* banner start */
+.banner {
+    background-color: #F0FFF0;
+    padding-bottom: 65px;
+}
+
+.b_text {}
+
+.b_p1 {
+    color: #FD511A;
+}
+
+.b_h1 {
+    margin: 10px 0 20px;
+    padding: 0 35px 0 0;
+    color: #000;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 70px;
+}
+
+.b_h1 span {
+    color: #21B573;
+
+}
+
+.b_p2 {
+    padding:0 50px 0 0;
+    color: #000;
+    line-height: 36px;
+}
+
+.btn_link {
+    margin-top: 15px;
+    width: 155px;
+    height: 45px;
+}
+
+.b_img img {}
+
+/* banner end */

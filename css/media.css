@@ -1,5 +1,7 @@
  /* Extra small devices (portrait phones, less than 576px) */
  @media (max-width: 575.98px) {
+
+    /* header start */
     header {
        padding: 0;
     }
@@ -12,10 +14,44 @@
        padding: 0px 10px !important;
        margin-bottom: 10px;
     }
+
+    /* banner start */
+    .banner{
+      padding-bottom: 60px;
+    }
+    .b_text {
+       text-align: center;
+    }
+
+    .b_h1 {
+       padding: 0;
+       font-size: 30px;
+       line-height: 40px;
+    }
+
+    .b_p2 {
+       padding: 0;
+       line-height: 30px;
+    }
+
+    .btn_link {
+       margin: 15px auto 0;
+    }
+
+    .b_img {
+       padding: 0;
+       margin-bottom: 20px;
+    }
+
+    .b_img img {
+       width: 100%;
+    }
  }
 
  /* Small devices (landscape phones, 576px and up) */
  @media (min-width: 576px) and (max-width: 767.98px) {
+
+    /* header start */
     header {
        padding: 5px 0;
     }
@@ -23,6 +59,35 @@
     .menu ul li a {
        padding: 0px 15px !important;
        margin-bottom: 10px;
+    }
+
+    /* banner start */
+    .b_text {
+       text-align: center;
+    }
+
+    .b_h1 {
+       padding: 0 65px;
+       font-size: 35px;
+       line-height: 50px;
+    }
+
+    .b_p2 {
+       padding: 0 30px;
+       line-height: 30px;
+    }
+
+    .btn_link {
+       margin: 15px auto 0;
+    }
+
+    .b_img {
+       padding: 0 50px;
+       margin-bottom: 30px;
+    }
+
+    .b_img img {
+       width: 100%;
     }
  }
 
@@ -34,6 +99,28 @@
        padding: 0px 15px !important;
        margin-bottom: 10px;
     }
+
+    /* banner start */
+    .b_text {
+       text-align: center;
+    }
+
+    .b_h1 {
+       padding: 0 90px;
+    }
+
+    .b_p2 {
+       padding: 0 70px;
+    }
+
+    .btn_link {
+       margin: 15px auto 0;
+    }
+
+    .b_img {
+       padding: 0 100px;
+       margin-bottom: 30px;
+    }
  }
 
  /* Large devices (desktops, 992px and up) */
@@ -43,4 +130,15 @@
  @media (min-width: 1200px) and (max-width: 1399.98px) {}
 
  /* Extra extra large devices (extra large desktops, 1400px and up) */
- @media (min-width: 1400px) {}
+ @media (min-width: 1400px) {
+
+
+    /* banner start */
+    .b_h1 {
+       padding-right: 105px;
+    }
+
+    .b_p2 {
+       padding-right: 90px;
+    }
+ }
