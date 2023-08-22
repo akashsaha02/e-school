@@ -16,9 +16,10 @@
     }
 
     /* banner start */
-    .banner{
-      padding-bottom: 60px;
+    .banner {
+       padding-bottom: 60px;
     }
+
     .b_text {
        text-align: center;
     }
@@ -46,6 +47,80 @@
     .b_img img {
        width: 100%;
     }
+
+    /* feature start */
+    .c_padd {
+       padding-bottom: 60px;
+    }
+
+    .s_feature {
+       margin-top: 24px;
+    }
+
+    .s_img {
+       width: 60px;
+       height: 70px;
+    }
+
+    /*course start*/
+
+    .c_h1 {
+       font-size: 25px;
+    }
+
+    .c_item {
+       margin: 30px 0 0;
+       padding: 10px 10px 15px;
+    }
+
+    .c_h2 {
+       font-size: 20px;
+    }
+
+    .c_left ul li img,
+    .c_right ul li img {
+       width: 20px !important;
+    }
+
+    .c_left ul li span,
+    .c_right ul li span {
+       font-size: 14px;
+       font-weight: 500;
+    }
+
+    .cli:not(:last-child) {
+       margin-right: 0;
+    }
+
+    /* testimonial */
+    .t_item {
+       margin-top: 40px;
+    }
+
+    .t_img {
+       padding: 0 60px 20px;
+    }
+
+    .t_text {
+       text-align: center;
+    }
+
+    .t_text p {
+       line-height: 24px;
+    }
+       /* footer top start */
+       .footer_top {
+         padding: 55px 0 20px;
+         text-align: center;
+      }
+   
+      .ft_details {
+         padding-right: 0;
+         margin-bottom: 35px;
+      }
+      .ft_links{
+         margin-bottom: 35px;
+      }
  }
 
  /* Small devices (landscape phones, 576px and up) */
@@ -89,6 +164,53 @@
     .b_img img {
        width: 100%;
     }
+
+    /* feature start */
+    .c_padd {
+       padding-bottom: 60px;
+    }
+
+    .s_feature {
+       margin-top: 24px;
+    }
+
+    /*course start*/
+    .c_h1 {
+       font-size: 25px;
+    }
+
+    .c_item {
+       margin: 30px 60px 0;
+       padding: 20px 15px 25px;
+    }
+
+    /* testimonial */
+    .t_item {
+       margin-top: 40px;
+    }
+
+    .t_img {
+       padding: 0 120px 20px;
+    }
+
+    .t_text {
+       text-align: center;
+    }
+
+    .t_text p {
+       line-height: 24px;
+    }
+
+    /* footer top start */
+    .footer_top {
+      text-align: center;
+   }
+
+   .ft_details {
+      padding-right: 70px;
+      padding-left: 70px;
+      margin-bottom: 35px;
+   }
  }
 
  /* Medium devices (tablets, 768px and up) */
@@ -121,17 +243,89 @@
        padding: 0 100px;
        margin-bottom: 30px;
     }
+
+    /* feature start */
+    .c_padd {
+       padding-bottom: 80px;
+    }
+
+    .s_feature {
+       margin-top: 24px;
+    }
+
+    /*course start*/
+    .c_item {
+       margin: 40px 100px 0;
+    }
+
+    .c_left ul li img,
+    .c_right ul li img {
+       width: 20px !important;
+    }
+
+    .c_left ul li span,
+    .c_right ul li span {
+       font-size: 14px;
+       font-weight: 500;
+    }
+
+    .cli:not(:last-child) {
+       margin-right: 0;
+    }
+
+    /* testimonial */
+    .t_item {
+       margin-top: 40px;
+    }
+
+    .t_text p {
+       line-height: 24px;
+    }
+
+    /* footer top start */
+    .footer_top {
+       text-align: center;
+    }
+
+    .ft_details {
+       padding-right: 80px;
+       padding-left: 80px;
+       margin-bottom: 35px;
+    }
+
+
  }
 
  /* Large devices (desktops, 992px and up) */
- @media (min-width: 992px) and (max-width: 1199.98px) {}
+ @media (min-width: 992px) and (max-width: 1199.98px) {
+
+    /*course start*/
+    .c_item {
+       padding: 24px 15px 30px;
+    }
+
+
+    .c_left ul li img,
+    .c_right ul li img {
+       width: 18px !important;
+    }
+
+    .c_left ul li span,
+    .c_right ul li span {
+       font-size: 14px;
+       font-weight: 500;
+    }
+
+    .cli:not(:last-child) {
+       margin-right: 0;
+    }
+ }
 
  /* Extra large devices (large desktops, 1200px and up) */
  @media (min-width: 1200px) and (max-width: 1399.98px) {}
 
  /* Extra extra large devices (extra large desktops, 1400px and up) */
  @media (min-width: 1400px) {
-
 
     /* banner start */
     .b_h1 {
@@ -140,5 +334,15 @@
 
     .b_p2 {
        padding-right: 90px;
+    }
+
+    /* feature start */
+    .s_feature {
+       padding: 65px 0 60px;
+    }
+
+    /* footer top start */
+    .ft_details {
+       padding-right: 130px;
     }
  }
